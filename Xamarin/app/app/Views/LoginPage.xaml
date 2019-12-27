@@ -47,7 +47,8 @@
                  </ActivityIndicator>
                 <Button
                     BackgroundColor="Brown"
-                    Text="Login">
+                    Text="Login"
+                    TextColor="White">
                  </Button>
                 </StackLayout> 
         </ScrollView>
