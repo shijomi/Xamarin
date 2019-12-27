@@ -4,11 +4,12 @@
              x:Class="app.Views.LoginPage">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout
+                Padding="15"
+                BackgroundColor="Green">
                 <Image
                   Source="">               
-                  
-                </Image>
+                  </Image>
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -17,8 +18,8 @@
                     <Label
                         Grid.Row="0"
                         Grid.Column="0"
-                        Text="email"
-                        TextColor="Black"
+                        Text="Email"
+                        TextColor="White"
                         >
                     </Label>
                     <Entry
@@ -31,7 +32,7 @@
                         Grid.Row="1"
                         Grid.Column="0"
                         Text="Password"
-                        TextColor="Black"
+                        TextColor="White"
                         >
                     </Label>
                     <Entry
@@ -42,6 +43,12 @@
                         Placeholder="Ingrese su password">
                      </Entry>
                      </Grid>
+                <ActivityIndicator>
+                 </ActivityIndicator>
+                <Button
+                    BackgroundColor="Brown"
+                    Text="Login">
+                 </Button>
                 </StackLayout> 
         </ScrollView>
     </ContentPage.Content>
