@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace app.Services
+﻿namespace app.Services
 {
-    
+
 
     using System;
     using System.Collections.Generic;
@@ -18,7 +14,7 @@ namespace app.Services
 
     public class ApiService
     {
-        public async Task<Response> CheckConnection()
+        public async Task<Response>CheckConnection()
         {
             if (!CrossConnectivity.Current.IsConnected)
             {
@@ -66,7 +62,7 @@ namespace app.Services
             }
         }
 
-        public async Task<TokenResponse> GetToken(
+        public async Task<TokenResponse>GetToken(
             string urlBase,
             string username,
             string password)
@@ -142,7 +138,7 @@ namespace app.Services
             }
         }
 
-        public async Task<Response> Get<T>(
+        public async Task<Response>Get<T>(
             string urlBase,
             string servicePrefix,
             string controller,
@@ -191,7 +187,7 @@ namespace app.Services
             }
         }
 
-        public async Task<Response> GetList<T>(
+        public async Task<Response>GetList<T>(
             string urlBase,
             string servicePrefix,
             string controller)
@@ -231,7 +227,7 @@ namespace app.Services
             }
         }
 
-        public async Task<Response> GetList<T>(
+        public async Task<Response>GetList<T>(
             string urlBase,
             string servicePrefix,
             string controller,

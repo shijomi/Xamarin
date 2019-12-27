@@ -6,6 +6,9 @@ namespace app.Models
 {
     class List
     {
+        internal object listID;
+        internal object contact;
+
         public enum TypeContact
         {
             email,
