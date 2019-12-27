@@ -7,6 +7,7 @@ namespace Api.Models
 {
     public enum TypeContact
     { email,
+        
            
     }
     public class List
