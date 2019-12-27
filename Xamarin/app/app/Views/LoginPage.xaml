@@ -6,7 +6,7 @@
         <ScrollView>
             <StackLayout
                 Padding="15"
-                BackgroundColor="Green">
+                BackgroundColor="purple">
                 <Image
                   Source="">               
                   </Image>
@@ -46,9 +46,9 @@
                 <ActivityIndicator>
                  </ActivityIndicator>
                 <Button
-                    BackgroundColor="Brown"
+                    BackgroundColor="white"
                     Text="Login"
-                    TextColor="White">
+                    TextColor="black">
                  </Button>
                 </StackLayout> 
         </ScrollView>
